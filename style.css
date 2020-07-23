@@ -4,32 +4,77 @@ body {
     background-size: cover;
 }
 h1{
-  background-color: rgb(31, 207, 37);
   color: Orange;
-padding: 20px 15px 25px;
+padding: 50px 20px 50px;
 text-align:center;
 }
-.location{
-  color: #E305CC;
-}
-.default{
-  color: #FA1414;
-  font-size: 100px;
-  font-weight: 100;
-  margin: 10px 0px;
-text-shadow: 3px 8px rgna(0,0,0,0.5);
-}
-.hi-low{
-  color: #E925BD;
-}
-.form-inline{
+
+.app-wrap{
 width: 100%;
 font-size: 25px;
 font-weight: 300;
 font-style: italic;
   transition: 0.3s ease-out;
   border-bottom: 2px crystal;
+  flex-direction: column;
 }
-.form-inline:focus {
+.app-wrap:focus {
   background-color: blue;
+}
+.form-control{
+  background-color: rgba(rgba(255, 255, 0, 0.5););
+}
+
+header{
+  text-align: center;
+  align-items: center;
+  padding: 20px 15px 25px;
+  outline: none;
+}
+.form control{
+  border: none;
+  outline: none;
+  padding: 20px 10px;
+  border-radius: 32px 0px 0px 0px:
+  border-bottom: 200px solid red;
+}
+header input:focus{
+  background-color: #12e3d9;
+}
+main{
+  text-align: center;
+  align-items: center;
+  font-size: 100;
+}
+.App{
+  text-align: center;
+  align-items: center;
+}
+.location{
+  color: #92ff03;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+
+}
+.Time{
+  color: #f7ff03;
+  font-size: 25px;
+}
+.Date{
+color: #03ffd1;
+font-size: 30px;
+}
+.default{
+  color: #db0fbd;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 30px 0px;
+}
+.default span {
+  font-weight: 800;
+}
+.hi-low{
+  color: #f0190a;
+  font-size: 30px;
 }
