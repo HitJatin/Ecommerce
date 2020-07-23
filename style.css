@@ -1,3 +1,15 @@
+#head{
+  color: white;
+  text-align: center;
+  display: block;
+  font-size: larger;
+  font-weight: bold;
+}
+#search {
+  margin: auto;
+  width: 400px;
+  padding: 20px;
+}
 body {
     background-image: url("Images/images.jpg");
     background-repeat: no-repeat;
@@ -20,26 +32,6 @@ font-style: italic;
 }
 .app-wrap:focus {
   background-color: blue;
-}
-.form-control{
-  background-color: rgba(rgba(255, 255, 0, 0.5););
-}
-
-header{
-  text-align: center;
-  align-items: center;
-  padding: 20px 15px 25px;
-  outline: none;
-}
-.form control{
-  border: none;
-  outline: none;
-  padding: 20px 10px;
-  border-radius: 32px 0px 0px 0px:
-  border-bottom: 200px solid red;
-}
-header input:focus{
-  background-color: #12e3d9;
 }
 main{
   text-align: center;

@@ -2,37 +2,36 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-
     <link rel="stylesheet" href="style.css">
     <title>Weather app</title>
   </head>
   <body>
-
-<h1>WEATHER</h1>
->
-      <div class="app-wrap">
-        <header>
-        <input class="form control" type="search" placeholder="Enter the city Name" aria-label="Search">
-        <button type="button" class="btn btn-outline-danger">Search</button>
-        </header>
+    <div class=".container-fluid">
+      <div class="header">
+        <nav class="navbar navbar-dark bg-primary" id="head">
+          WeatherApp
+        </nav>
       </div>
-
-    <main>
-    <div class="App">
-    <div class="location">NEW DELHI</div><br>
-    <div class="Time">6 PM</div><br>
-    <div class="Date">20 July,2020</div>
-    <div class="default">18°/25°</div>
-    <div class="hi-low">Maximum/Minimum</div>
-   </div>
-   </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <div class="main">
+        <div class="app-wrap" id="search">
+          <input class="form control" type="search" placeholder="Enter the city Name" aria-label="Search">
+          <button type="button" class="btn btn-outline-danger">Search</button>
+        </div>
+      </div>
+      <main>
+      <div class="App">
+      <div class="location">NEW DELHI</div><br>
+      <div class="Time">6 PM</div><br>
+      <div class="Date">20 July,2020</div>
+      <div class="default">18°/25°</div>
+      <div class="hi-low">Maximum/Minimum</div>
+    </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </div>
 </body>
 </html>
