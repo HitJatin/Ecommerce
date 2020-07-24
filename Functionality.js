@@ -12,6 +12,11 @@ let lang,long;
       })
       .then(data => {
         console.log(data);
+        document.getElementById("location").innerhtml="Noida";
+        document.getElementById("temp").innerhtml=data.name;
+        document.getElementById("Time").innerhtml=data.name;
+        document.getElementById("hi-low").innerhtml=data.name;
+        document.getElementsByClassName("Date").innerhtml=data.name;
       })
     })
   }

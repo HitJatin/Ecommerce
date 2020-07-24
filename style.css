@@ -7,7 +7,7 @@
 }
 #search {
   margin: auto;
-  width: 400px;
+  width: 500px;
   padding: 20px;
 }
 body {
@@ -42,14 +42,14 @@ main{
   text-align: center;
   align-items: center;
 }
-.location{
+#location{
   color: #92ff03;
   font-size: 30px;
   align-items: center;
   text-align: center;
 
 }
-.Time{
+#Time{
   color: #f7ff03;
   font-size: 25px;
 }
@@ -57,16 +57,16 @@ main{
 color: #03ffd1;
 font-size: 30px;
 }
-.default{
+#temp{
   color: #db0fbd;
   font-size: 60px;
   font-weight: 100;
   margin: 30px 0px;
 }
-.default span {
+#temp span {
   font-weight: 800;
 }
-.hi-low{
+#hi-low{
   color: #f0190a;
   font-size: 30px;
 }
