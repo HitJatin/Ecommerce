@@ -1,22 +1,26 @@
-let lang,long;
-  if(navigator.geolocation){
-    navigator.geolocation.getCurrentPosition(position =>{
-      long=position.coords.longitude;
-      lat=position.coords.latitude;
 
-      const api="http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&appid=3777a8a9311db88d473fc57260aab8e2"
+  function get_city()
+  {
+    let city;
+    let input  = document.getElementById("input");
+    city = input.value;
+    const api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=3959d417f797d4d08be184889edff294";
+    let date = new Date(); 
 
       fetch(api)
       .then(response => {
+        console.log(response);
         return response.json();
       })
       .then(data => {
         console.log(data);
-        document.getElementById("location").innerhtml=da;
-        document.getElementById("temp").innerhtml=data.name;
-        document.getElementById("Time").innerhtml=data.name;
-        document.getElementById("hi-low").innerhtml=data.name;
-        document.getElementsByClassName("Date").innerhtml=data.name;
+        document.getElementById("location").innerHTML=data["name"];
+        document.getElementById("temp").innerHTML=data["main"]["temp"];
+        document.getElementById("Time").innerHTML=date;
+        document.getElementById("hi-low").innerHTML=data["main"]["temp_max"] + "/" + data["main"]["temp_min"];
+
       })
-    })
   }
+
+  
+    
