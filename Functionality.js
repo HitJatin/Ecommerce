@@ -1,4 +1,19 @@
 let lang,long;
+function startTime() {
+  var today = new Date();
+  var h = today.getHours();
+  var m = today.getMinutes();
+  var s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('Time').innerHTML =
+  h + ":" + m + ":" + s;
+  var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
   if(navigator.geolocation){
     navigator.geolocation.getCurrentPosition(position =>{
       long=position.coords.longitude;
@@ -12,7 +27,8 @@ let lang,long;
       })
       .then(data => {
         console.log(data);
-        document.getElementById("location").innerhtml=da;
+        console.log(data.name);
+        $("#location").text(data.name);
         document.getElementById("temp").innerhtml=data.name;
         document.getElementById("Time").innerhtml=data.name;
         document.getElementById("hi-low").innerhtml=data.name;
