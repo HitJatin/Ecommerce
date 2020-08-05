@@ -16,17 +16,19 @@
       </div>
       <div class="main">
         <div class="app-wrap" id="search">
-          <input class="form control" type="search" placeholder="Enter the city Name" aria-label="Search">
-          <button type="button" class="btn btn-outline-danger">Search</button>
+          <input id="input" class="form control" type="search" placeholder="Enter the city Name" aria-label="Search">
+          <button type="button" class="btn btn-outline-danger" onclick="get_city()">Search</button>
         </div>
       </div>
       <main>
       <div class="App">
-      <div id="location">NEW DELHI</div><br>
+      <div id="location"></div><br>
       <div id="Time"></div><br>
-      <div class="Date">20 July,2020</div>
-      <div id="temp">18°/25°</div>
-      <div id="hi-low">Maximum/Minimum</div>
+      <div id="Date"></div>
+      <div id="Day"></div>
+      <div id="icon"></div>
+      <div id="temp"></div>
+      <div id="hi-low"></div>
     </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

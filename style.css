@@ -53,9 +53,13 @@ main{
   color: #f7ff03;
   font-size: 25px;
 }
-.Date{
+#Date{
 color: #03ffd1;
 font-size: 30px;
+}
+#Day{
+  color: chartreuse;
+  font-size: 30px;
 }
 #temp{
   color: #db0fbd;
