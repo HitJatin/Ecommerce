@@ -65,8 +65,8 @@ function checkTime(i) {
         document.getElementById("Time").innerhtml=data.name;
         document.getElementsByClassName("Date").innerhtml=data.name;
         document.getElementById("location").innerHTML=data["name"];
-        document.getElementById("temp").innerHTML=data["main"]["temp"];
-        document.getElementById("hi-low").innerHTML=data["main"]["temp_max"] + "/" + data["main"]["temp_min"];
+        document.getElementById("temp").innerHTML=data["main"]["temp"]+" K";
+        document.getElementById("hi-low").innerHTML="max: "+data["main"]["temp_max"] +" K"+ "/" +"min: "+ data["main"]["temp_min"]+"K";
 
       })
     })
