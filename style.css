@@ -2,7 +2,7 @@
   color: white;
   text-align: center;
   display: block;
-  font-size: larger;
+  font-size:xx-large;
   font-weight: bold;
 }
 #search {
@@ -16,7 +16,6 @@ body {
     background-size: cover;
 }
 h1{
-  color: Orange;
 padding: 50px 20px 50px;
 text-align:center;
 }
@@ -43,26 +42,22 @@ main{
   align-items: center;
 }
 #location{
-  color: #92ff03;
   font-size: 30px;
   align-items: center;
   text-align: center;
 
 }
 #Time{
-  color: #f7ff03;
   font-size: 25px;
 }
 #Date{
-color: #03ffd1;
 font-size: 30px;
 }
 #Day{
-  color: chartreuse;
   font-size: 30px;
 }
 #temp{
-  color: #db0fbd;
+
   font-size: 60px;
   font-weight: 100;
   margin: 30px 0px;
@@ -71,6 +66,5 @@ font-size: 30px;
   font-weight: 800;
 }
 #hi-low{
-  color: #f0190a;
   font-size: 30px;
 }
